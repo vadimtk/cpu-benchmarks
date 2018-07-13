@@ -1,4 +1,4 @@
-,m5.12xlarge,m5d.24xlarge,c5d.9xlarge,c5d.18xlarge,gce.n1-standard-96
+Threads,m5.12xlarge,m5d.24xlarge,c5d.9xlarge,c5d.18xlarge,gce.n1-standard-96
 1,1265.77,1262.06,1227.8,1228.26,904.75
 2,2395.03,2471.29,2406.08,2401.11,1870.22
 4,4768.5,4691.86,4773.12,4625.9,3513.63
