@@ -170,3 +170,60 @@ threads | throughput
 256 | 51025.37
 512 | 55792.19
 1024 | 54902.98
+
+# Amazon c5d.9xlarge
+
+`Linux ip-10-0-0-254.ec2.internal 4.14.47-64.38.amzn2.x86_64`
+
+```
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              36
+On-line CPU(s) list: 0-35
+Thread(s) per core:  2
+Core(s) per socket:  18
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Platinum 8124M CPU @ 3.00GHz
+Stepping:            4
+CPU MHz:             2900.038
+BogoMIPS:            6000.00
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            25344K
+NUMA node0 CPU(s):   0-35
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+```
+
+threads | throughput 
+--------|-----------
+1 | 1227.80
+2 | 2406.08
+4 | 4773.12
+8 | 9334.30
+12 | 13112.17
+16 | 15731.87
+20 | 17755.95
+24 | 18832.21
+30 | 24285.73
+36 | 31329.32
+42 | 31171.16
+48 | 30824.06
+56 | 30567.31
+64 | 30483.70
+72 | 30504.17
+80 | 30227.47
+90 | 30058.98
+100 | 29709.41
+128 | 29021.73
+192 | 27665.97
+256 | 31003.29
+512 | 30928.03
+1024 | 30713.47
